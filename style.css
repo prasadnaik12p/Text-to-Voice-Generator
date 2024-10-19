@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#FDF1F5;
+}
+
+h1{
+    position: relative;
+    left: 120px;
+}
+#box{
+    margin: 100px;
+    background-color: #e98940;
+    width: 600px;
+    height: 700px;
+    border: 10px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#textarea{
+    position: relative;
+    left: 40px;
+    width: 80%;
+    max-width: 500px;
+    height: 350px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid red;
+}
+
+#cnl{
+    margin: 20px;
+    width: 130px;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 3px solid red;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+#button:hover,#cnl:hover{
+    background-color: rgb(0, 255, 21);
+    transform: scale(1);
+    color: red
+}
+
+#button{
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    border: 3px solid red;
+}
+
+
+#voices{
+    width: 270px;
+    position: relative;
+    left: 20px;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    
+    border: 3px solid red;
+}
+ #download{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: green;
+    
+ }
+
